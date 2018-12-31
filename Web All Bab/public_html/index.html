@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>All BAB</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            input[type=text],select{
+                width: 100%;
+                padding: 14px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+            }
+            input[type=submit]{
+                width: 100%;
+                background-color: red;
+                color: white;
+                padding: 14px 20px;
+                margin: 8px;
+                border: none;
+                border-radius: 8px;
+                box-sizing: pointer;
+            }
+            input[type=submit]:hover{background-color: #45a049}
+            div{border-radius:5px;background-color:#2f2f2;padding:20px;}
+        </style>
+    </head>
+    <body>
+        <header role="banner"><h1>Pengisisan Mahasiswa</h1></header>
+        <article>
+            <section>
+                <div>
+                    <form action="#">
+                        <label for="nim">NIM</label>
+                        <input type="text"id="nim" name="NIM" placeholder="Nomor Induk Mahasiswa">
+                        <label for="nama">Nama</label>
+                        <input type="text" id="nama" name="Nama" placeholder="Nama Lengkap">
+                        <label for="country">Program Study</label>
+                        <select id="country" name="Country">
+                            <option value="TI S1">Teknik Informatika S1</option>
+                            <option value="SI S1">Sistem Informasi S1</option>
+                            <option value="MI D3">Managemenet Infromatika D3</option>
+                            <option value="TI D3">Teknik Informatika D3</option>
+                        </select>
+                        <input type="Submit" value="submit">
+                    </form>
+                </div>
+            </section>
+        </article>
+        <footer><p>Created By <a href="#"Dhims Project</a></p></footer>
+    </body>
+</html>

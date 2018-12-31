@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>All BAB</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            h1{
+                text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #fe00de;
+                text-align: center;
+            }
+            input[type=text],select{
+                width: 100%;
+                padding: 14px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+            }
+            input[type=submit]{
+                width: 100%;
+                background-color: red;
+                color: white;
+                padding: 14px 20px;
+                margin: 8px;
+                border: none;
+                border-radius: 8px;
+                box-sizing: pointer;
+            }
+           #customers {
+                font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+                border-collapse: collapse;
+                width: 100%;
+            }
+
+            #customers td, #customers th {
+                border: 1px solid #ddd;
+                padding: 8px;
+            }
+
+            #customers tr:nth-child(even){background-color: #f2f2f2;}
+
+            #customers tr:hover {background-color: #ddd;}
+
+            #customers th {
+                 padding-top: 12px;
+                 padding-bottom: 12px;
+                 text-align: left;
+                 background-color: #4CAF50;
+  color: white;
+}
+body{
+    background-image: url("wallpaper2you_196296.jpg");
+    background-size: cover;
+}
+#header {
+    background-color:yellow;
+    color:black;
+    text-align:left;
+    padding:5px;   
+}
+
+.h1 {
+	text-indent: -9999px;
+	width: 940px;
+	height: 130px;
+	margin: 0px;
+    }
+nav, footer {
+	clear: both;
+	color: red;
+	background-color: #aeaca8;
+    	height: 30px;
+        text-align: center;
+}
+nav ul {
+	margin: 0px;
+	padding: 5px 0px 5px 30px;}
+nav li {
+	display: inline;
+	margin-right: 40px;}
+nav li a {
+	color: #ffffff;}
+nav li a:hover, nav li a.current {
+	color: #000000;}
+
+            input[type=submit]:hover{background-color: #45a049}
+            div{border-radius:5px;background-color:#2f2f2;padding:20px;}
+        </style>
+    </head>
+    <body>
+        <header role="banner">
+            <div id="header">
+                <h1>Form Mahasiswa</h1>	 		 	
+            </div>
+            <nav>
+    <ul>
+	<li><a href="" class="current">Beranda</a></li>
+	<li><a href="">TENTANG</a></li>
+	<li><a href="">KONTAK</a></li>
+   </ul>
+  </nav>
+        </header>
+        <article>
+            <section>
+                <div>
+                    <form action="#">
+                        <label for="nim">NIM</label>
+                        <input type="text"id="nim" name="NIM" placeholder="Nomor Induk Mahasiswa">
+                        <label for="nama">Nama</label>
+                        <input type="text" id="nama" name="Nama" placeholder="Nama Lengkap">
+                        <label for="country">Program Study</label>
+                        <select id="country" name="Country">
+                            <option value="TI S1">Teknik Informatika S1</option>
+                            <option value="SI S1">Sistem Informasi S1</option>
+                            <option value="MI D3">Managemenet Infromatika D3</option>
+                            <option value="TI D3">Teknik Informatika D3</option>
+                        </select>
+                        <input type="Submit" value="submit">
+                    </form>
+                </div>
+                <table id="customers">
+  <tr>
+    <th>Nama</th>
+    <th>NIM</th>
+    <th>Program Study</th>
+  </tr>
+  <tr>
+    <td>Ahmad Subarjo</td>
+    <td>5180411411</td>
+    <td>S1-Informatika</td>
+  </tr>
+  <tr>
+    <td>Samsudin</td>
+    <td>5180411412</td>
+    <td>S1-Informatika</td>
+  </tr>
+  <tr>
+    <td>Waluyo</td>
+    <td>5180411413</td>
+    <td>S1-Informatika</td>
+  </tr>
+  <tr>
+    <td>Sunaryo</td>
+    <td>5180411414</td>
+    <td>S1-Informatika</td>
+  </tr>
+  <tr>
+    <td>bedjo</td>
+    <td>5180411415</td>
+    <td>S1-Informatika</td>
+  </tr>
+  <tr>
+    <td>Samsul</td>
+    <td>5180411415</td>
+    <td>S1-Informatika</td>
+  </tr>
+  <tr>
+    <td>Aji Saka</td>
+    <td>5180411416</td>
+    <td>S1-Informatika</td>
+  </tr>
+  <tr>
+    <td>Maridjan</td>
+    <td>5180411417</td>
+    <td>S1-Informatika</td>
+  </tr>
+  <tr>
+    <td>Suparjo</td>
+    <td>5180411418</td>
+    <td>S1-Informatika</td>
+  </tr>
+  <tr>
+    <td>Tukiyem</td>
+    <td>5180411419</td>
+    <td>S1-Informatika</td>
+  </tr>
+</table>
+            </section>
+       </article>
+    </body>
+   <footer>
+	© 2018 gaksukacoding
+</footer>
+</html>
